@@ -1,0 +1,15 @@
+# invoke rewrite engine
+RewriteEngine On
+RewriteBase /
+
+Options -Indexes
+<IfModule mod_negotiation.c>
+	Options -MultiViews
+</IfModule>
+
+#Redirect 400,401,403,404,500 to main website
+ErrorDocument 400 http://opencad.io
+ErrorDocument 401 http://opencad.io
+ErrorDocument 403 http://opencad.io
+ErrorDocument 404 http://opencad.io
+ErrorDocument 500 http://opencad.io
