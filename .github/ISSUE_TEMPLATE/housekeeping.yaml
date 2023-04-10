@@ -13,7 +13,7 @@ body:
       label: Proposed Changes
       description: >
         Describe in detail the new feature or behavior you'd like to propose.
-        Include any specific changes to work flows, data models, or the user interface.
+        Include any specific changes to whole pages, specific content, or external links.
     validations:
       required: true
   - type: textarea
